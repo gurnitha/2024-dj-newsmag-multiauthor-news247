@@ -20,3 +20,8 @@ https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
 
 
 ## 2. CREATE DJANGO PROJECT AND APPS
+
+#### 1. Membuat lingkungan virtual
+
+        modified:   README.md
+        (dj-newsmag) λ python -m venv venv312501 --prompt dj-multiauthor
