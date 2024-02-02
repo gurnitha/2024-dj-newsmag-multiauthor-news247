@@ -214,3 +214,70 @@ https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
         Quit the server with CTRL-BREAK.
 
         NOTE: Pembuatan proyek Django berhasil.
+
+#### 10. Membuat app Django dengan nama 'home' di dalam folder apps
+
+        (dj-multiauthor) λ django-admin
+
+        Type 'django-admin help <subcommand>' for help on a specific subcommand.
+
+        ..
+            startapp <----
+            startproject
+            test
+            testserver
+
+        (dj-multiauthor) λ python manage.py
+
+        Type 'manage.py help <subcommand>' for help on a specific subcommand.
+
+        Available subcommands:
+
+        ...
+            startapp <----
+            startproject
+            test
+            testserver
+
+        modified:   README.md
+        new file:   apps/home/__init__.py
+        new file:   apps/home/admin.py
+        new file:   apps/home/apps.py
+        new file:   apps/home/migrations/__init__.py
+        new file:   apps/home/models.py
+        new file:   apps/home/tests.py
+        new file:   apps/home/views.py
+
+        (dj-multiauthor) λ tree /f
+        Folder PATH listing for volume Local Disk
+        Volume serial number is C0000100 42EB:BBDC
+        E:.
+        │   .gitignore
+        │   db.sqlite3
+        │   manage.py
+        │   README.md
+        │
+        ├───apps
+        │   └───home
+        │       │   admin.py
+        │       │   apps.py
+        │       │   models.py
+        │       │   tests.py
+        │       │   views.py
+        │       │   __init__.py
+        │       │
+        │       └───migrations
+        │               __init__.py
+        │
+        └───config
+            │   asgi.py
+            │   settings.py
+            │   urls.py
+            │   wsgi.py
+            │   __init__.py
+            │
+            └───__pycache__
+                    settings.cpython-312.pyc
+                    urls.cpython-312.pyc
+                    wsgi.cpython-312.pyc
+                    __init__.cpython-312.pyc
