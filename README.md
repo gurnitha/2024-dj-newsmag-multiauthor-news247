@@ -81,3 +81,38 @@ https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
         pip      23.3.2
         sqlparse 0.4.4
         tzdata   2023.4
+
+#### 6. Memeriksa perintah untuk membuat proyek Django
+
+        (dj-multiauthor) λ django-admin
+
+        Type 'django-admin help <subcommand>' for help on a specific subcommand.
+
+        Available subcommands:
+
+        [django]
+            check
+            compilemessages
+            createcachetable
+            dbshell
+            diffsettings
+            dumpdata
+            flush
+            inspectdb
+            loaddata
+            makemessages
+            makemigrations
+            migrate
+            optimizemigration
+            runserver
+            sendtestemail
+            shell
+            showmigrations
+            sqlflush
+            sqlmigrate
+            sqlsequencereset
+            squashmigrations
+            startapp
+            startproject <----
+            test
+            testserver
