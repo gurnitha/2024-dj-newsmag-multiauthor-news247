@@ -116,3 +116,32 @@ https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
             startproject <----
             test
             testserver
+
+#### 7. Meembuat proyek Django dengan nama 'config' di dalam folder theproject
+
+        (dj-multiauthor) λ django-admin startproject config .
+
+        # Hasil perintah
+        modified:   README.md
+        new file:   config/__init__.py
+        new file:   config/asgi.py
+        new file:   config/settings.py
+        new file:   config/urls.py
+        new file:   config/wsgi.py
+        new file:   manage.py
+
+        # Struktur proyek
+        (dj-multiauthor) λ tree /f
+        Folder PATH listing for volume Local Disk
+        Volume serial number is C0000100 42EB:BBDC
+        E:.
+        │   .gitignore
+        │   manage.py
+        │   README.md
+        │
+        └───config
+                asgi.py
+                settings.py
+                urls.py
+                wsgi.py
+                __init__.py
