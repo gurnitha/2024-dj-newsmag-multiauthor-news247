@@ -64,3 +64,9 @@ https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
 
         [notice] A new release of pip is available: 23.2.1 -> 23.3.2
         [notice] To update, run: python.exe -m pip install --upgrade pip
+
+#### 4. Meng-upgrade pip
+
+        (dj-multiauthor) λ python.exe -m pip install --upgrade pip
+        ...
+        Successfully installed pip-23.3.2
