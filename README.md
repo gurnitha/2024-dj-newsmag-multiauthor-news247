@@ -8,6 +8,24 @@ https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
         new file:   .gitignore
         new file:   README.md
 
+        E:\_WORKSPACE\2024\django\BLOG-MULTI-AUTHOR\2024-dj-newsmag-multiauthor-news247
+        λ git init
+        λ git add .
+        λ git status
+        On branch master
+
+        No commits yet
+
+        Changes to be committed:
+          (use "git rm --cached <file>..." to unstage)
+                new file:   .gitignore
+                new file:   README.md
+        λ git commit -am "1. Initial commit"
+        [master (root-commit) 12762ce] 1. Initial commit
+         2 files changed, 10 insertions(+)
+         create mode 100644 .gitignore
+         create mode 100644 README.md
+
 #### 2. Modified .gitignore file
 
         modified:   .gitignore
@@ -17,6 +35,12 @@ https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
 
         modified:   README.md
         https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
+
+        (dj-newsmag) λ git commit -am "3. Create remote repository Github and push local repository to it"
+        [master a59efa5] 3. Create remote repository Github and push local repository to it
+         1 file changed, 6 insertions(+), 1 deletion(-)
+        (dj-newsmag) λ git remote add origin git@github.com:gurnitha/2024-dj-newsmag-multiauthor-news247.git
+        (dj-newsmag) λ git branch -M main
 
 
 ## 2. CREATE DJANGO PROJECT AND APPS
