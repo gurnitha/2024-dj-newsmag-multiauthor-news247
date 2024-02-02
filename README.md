@@ -25,3 +25,8 @@ https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
 
         modified:   README.md
         (dj-newsmag) λ python -m venv venv312501 --prompt dj-multiauthor
+
+#### 2. Mengaktifkan venv312501
+
+        modified:   README.md
+        (dj-newsmag) λ venv312501\Scripts\activate.bat
