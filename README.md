@@ -17,3 +17,6 @@ https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
 
         modified:   README.md
         https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
+
+
+## 2. CREATE DJANGO PROJECT AND APPS
