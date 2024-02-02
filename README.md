@@ -145,3 +145,55 @@ https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
                 urls.py
                 wsgi.py
                 __init__.py
+
+#### 8. Memeriksa perintah untuk menajalankan Django server
+
+        (dj-multiauthor) λ ls
+        config/  manage.py*  README.md
+
+        (dj-multiauthor) λ python manage.py
+
+        Type 'manage.py help <subcommand>' for help on a specific subcommand.
+
+        Available subcommands:
+
+        [auth]
+            changepassword
+            createsuperuser
+
+        [contenttypes]
+            remove_stale_contenttypes
+
+        [django]
+            check
+            compilemessages
+            createcachetable
+            dbshell
+            diffsettings
+            dumpdata
+            flush
+            inspectdb
+            loaddata
+            makemessages
+            makemigrations
+            migrate
+            optimizemigration
+            sendtestemail
+            shell
+            showmigrations
+            sqlflush
+            sqlmigrate
+            sqlsequencereset
+            squashmigrations
+            startapp
+            startproject
+            test
+            testserver
+
+        [sessions]
+            clearsessions
+
+        [staticfiles]
+            collectstatic
+            findstatic
+            runserver <---
