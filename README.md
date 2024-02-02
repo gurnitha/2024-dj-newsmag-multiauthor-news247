@@ -70,3 +70,14 @@ https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
         (dj-multiauthor) λ python.exe -m pip install --upgrade pip
         ...
         Successfully installed pip-23.3.2
+
+#### 5. Memastikan Django versi 5.0.1 sudah terinstal
+
+        (dj-multiauthor) λ pip list
+        Package  Version
+        -------- -------
+        asgiref  3.7.2
+        Django   5.0.1
+        pip      23.3.2
+        sqlparse 0.4.4
+        tzdata   2023.4
