@@ -197,3 +197,20 @@ https://github.com/gurnitha/2024-dj-newsmag-multiauthor-news247
             collectstatic
             findstatic
             runserver <---
+
+#### 9. Menjalankan Django server untuk melihat tampilan default proyek Django
+
+        (dj-multiauthor) λ python manage.py runserver
+        Watching for file changes with StatReloader
+        Performing system checks...
+
+        System check identified no issues (0 silenced).
+
+        You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+        Run 'python manage.py migrate' to apply them.
+        February 03, 2024 - 04:37:12
+        Django version 4.2.7, using settings 'config.settings'
+        Starting development server at http://127.0.0.1:8000/
+        Quit the server with CTRL-BREAK.
+
+        NOTE: Pembuatan proyek Django berhasil.
