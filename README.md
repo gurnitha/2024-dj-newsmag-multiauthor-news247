@@ -8,3 +8,7 @@
         new file:   .gitignore
         new file:   README.md
 
+#### 2. Modified .gitignore file
+
+        modified:   .gitignore
+        modified:   README.md
